@@ -6,13 +6,6 @@ const prefix = "!";
 const express= require("express");
 const app = express();
 
-
-app.set('port', (process.env.PORT || 5000))
-
-app.listen(app.get('port'), function(){
-  console.log(`Bot en fonctionnement sur le port ${app.get('port')}`)
-})
-
 client.on("ready", () =>{
     console.log("Le bot vient de se connecter au serveur");
     let status = 'Son créateur Neoblacks#3084';
