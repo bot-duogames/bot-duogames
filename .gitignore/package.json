@@ -1,0 +1,18 @@
+{
+  "name": "bot-duogames",
+  "version": "1.0.0",
+  "description": "Bot discord pour DuoGames",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "express": "^4.16.4",
+    "forever": "^0.15.3",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antoine Mugnier : Neoblacks#3084",
+  "license": "ISC"
+}
